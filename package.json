@@ -1,13 +1,13 @@
 {
-    "name": "my-site",
-    "version": "1.0.0",
-    "description": "Personal portfolio website with CI/CD",
-    "scripts": {
-        "lint": "htmlhint '*.html'",
-        "test": "echo \"Tests passed\" && exit 0",
-        "build": "mkdir -p dist && cp index.html style.css script.js dist/ && cp -R assets dist/"
-    },
-    "devDependencies": {
-        "htmlhint": "^1.1.4"
-    }
+  "name": "my-site",
+  "version": "1.0.0",
+  "description": "Personal portfolio website with CI/CD",
+  "scripts": {
+    "lint": "htmlhint '*.html'",
+    "test": "exit 1",
+    "build": "mkdir -p dist && cp index.html style.css script.js dist/ && cp -R assets dist/"
+  },
+  "devDependencies": {
+    "htmlhint": "^1.1.4"
+  }
 }
