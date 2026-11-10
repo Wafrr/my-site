@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Личное портфолио веб-разработчика">
+    <title>Моё портфолио</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">portfolio.</a>
+        <button id="themeButton" type="button">Сменить тему</button>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <div class="hero-content">
+                <p class="eyebrow">ПРИВЕТ, МИР!</p>
+                <h1>Привет! Я веб-разработчик.</h1>
+                <p class="description">
+                    Создаю современные и удобные веб-сайты.
+                    Изучаю новые технологии и развиваюсь в программировании.
+                </p>
+                <a href="mailto:hello@example.com" class="contact-button">
+                    Связаться со мной
+                </a>
+            </div>
+
+            <div class="hero-image">
+                <img src="./assets/avatar.svg" alt="Иллюстрация разработчика">
+            </div>
+        </section>
+
+        <section class="about">
+            <p class="eyebrow">НЕМНОГО ОБО МНЕ</p>
+            <h2>Обо мне</h2>
+            <p>
+                Я начинающий веб-разработчик. Работаю с HTML, CSS и JavaScript,
+                изучаю современные инструменты разработки и создаю собственные
+                проекты. Мне нравится решать задачи и превращать идеи
+                в работающие приложения.
+            </p>
+        </section>
+
+        <section class="skills">
+            <p class="eyebrow">МОИ ИНСТРУМЕНТЫ</p>
+            <h2>Навыки</h2>
+            <div class="skills-list">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Git</span>
+            </div>
+        </section>
+
+        <section class="counter-section">
+            <h2>Интерактивный счётчик</h2>
+            <p>Количество нажатий: <strong id="counter">0</strong></p>
+            <button id="counterButton" type="button">Увеличить</button>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 Моё портфолио. Создано с помощью HTML, CSS и JavaScript.</p>
+    </footer>
+</body>
+</html>
